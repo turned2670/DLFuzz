@@ -33,12 +33,12 @@ cd ImageNet
 python gen_diff.py [2] 0.25 10 0602 3 vgg16
 #meanings of arguments
 #python gen_diff.py 
-[2] is for the list of neuron selection strategies
-0.25 is for the activation threshold of a neuron
-10 is for the number of neurons selected to cover
-0602 is for the folder holding the adversarial examples generated
-3 is for the number of times for mutation on each seed
-vgg16 is for the DL model under test
+[2] -> the list of neuron selection strategies
+0.25 -> the activation threshold of a neuron
+10 -> the number of neurons selected to cover
+0602 -> the folder holding the adversarial examples generated
+3 -> the number of times for mutation on each seed
+vgg16 -> the DL model under test
 ```
 
 generate adversarial examples for MNIST
